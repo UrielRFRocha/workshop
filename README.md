@@ -92,5 +92,39 @@ Curva de aprendizado maior devido ao uso da linguagem Dart
 Conclusão:
 Enquanto o Flutter se destaca pelo desempenho e controle visual, o React Native foi a escolha mais adequada para este projeto devido à familiaridade com JavaScript, maturidade do ecossistema e tempo disponível para desenvolvimento.
 
+▶️ Como executar o projeto
+📦 Pré-requisitos
+Node.js instalado
+
+npm ou yarn
+
+Expo CLI (para execução do frontend mobile)
+
+⚙️ Backend (API REST)
+Acesse a pasta do projeto:
+
+cd BackendWorkshopCap3
+Instale as dependências:
+
+npm install
+Inicie o servidor:
+
+node server.js
+O backend será iniciado, por padrão, na porta 3000.
+
+📱 Frontend (Aplicação Mobile)
+⚠️ Observação:
+O frontend mobile foi desenvolvido separadamente e consome esta API REST.
+
+Acesse a pasta do projeto mobile
+
+Instale as dependências:
+
+npm install
+Inicie o Expo:
+
+npx expo start
+O aplicativo pode ser executado em um emulador ou diretamente no celular utilizando o aplicativo Expo Go.
+
 🔗 Repositório
 O código-fonte do projeto está disponível neste repositório para fins de avaliação acadêmica.
