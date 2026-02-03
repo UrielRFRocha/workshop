@@ -98,33 +98,29 @@ Node.js instalado
 
 npm ou yarn
 
-Expo CLI (para execução do frontend mobile)
+🚀 Executando o Backend
 
-⚙️ Backend (API REST)
 Acesse a pasta do projeto:
 
 cd BackendWorkshopCap3
+
+
 Instale as dependências:
 
 npm install
+
+
 Inicie o servidor:
 
 node server.js
-O backend será iniciado, por padrão, na porta 3000.
 
-📱 Frontend (Aplicação Mobile)
-⚠️ Observação:
-O frontend mobile foi desenvolvido separadamente e consome esta API REST.
 
-Acesse a pasta do projeto mobile
+O servidor será iniciado e a API ficará disponível, por padrão, na porta 3000.
 
-Instale as dependências:
+ℹ️ Observação Importante
 
-npm install
-Inicie o Expo:
-
-npx expo start
-O aplicativo pode ser executado em um emulador ou diretamente no celular utilizando o aplicativo Expo Go.
+A pasta node_modules não é versionada no repositório, pois é gerada automaticamente a partir do comando npm install, conforme boas práticas de projetos Node.js.
 
 🔗 Repositório
-O código-fonte do projeto está disponível neste repositório para fins de avaliação acadêmica.
+
+Este repositório foi desenvolvido para fins acadêmicos e está disponível para avaliação do professor. 
